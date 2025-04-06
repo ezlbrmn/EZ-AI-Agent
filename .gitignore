@@ -1,0 +1,15 @@
+# Ignore Python environment
+venv/
+__pycache__/
+
+# Ignore system & editor files
+*.DS_Store
+*.log
+
+# Ignore vectorstore files if any
+vectorstore/
+*.faiss
+*.pkl
+
+# Ignore sensitive configs
+.env
